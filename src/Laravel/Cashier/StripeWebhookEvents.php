@@ -78,4 +78,13 @@ class StripeWebhookEvents
     const TRANSFER_PAID = 'transfer.paid';
 
     const TRANSFER_FAILED = 'transfer.failed';
+
+    // Accounts for OAuth2 - Stripe Connect Api
+
+
+    const ACCOUNT_UPDATE = 'account.updated';
+    const ACCOUNT_APPLICATION_DEAUTHORIZED = 'account.application.deauthorized';
+    const APPLICATION_FEE_CREATED = 'application_fee.created';
+    const APPLICATION_FEE_REFUNDED = 'application_fee.refunded';
+    const BALANCE_AVAILABLE = 'balance.available';
 } 
